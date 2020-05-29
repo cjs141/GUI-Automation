@@ -1,5 +1,5 @@
 # GUI Automation
-> Creators: Craig Sandlin, Mason Currie, Sean Summers, Anthony Connor
+> Creators: Craig Sandlin
 
 > Project Description: Automation tool designed to relieve the user from repetitive tasks. Works across all applications; from websites to spreadsheets, file explorer, and everything inbetween. A friendly excel UI allows those without programming knowledge to automate any task that includes clicking, typing, select all, backspace, enter, wait, and more! 
 
@@ -14,7 +14,7 @@
 * [Contact](#contact)
 
 ## General info
-> The motivation: The mother of all invention- necessity. I, Craig Sandlin, was required to do electrical measurements on lighting fixtures to characterize the product before approbation listing with UL and/or Intertek. The sample size for this testing was sometimes upward of 70 discrete measurements. The changes that needed to be made to the software were repetitive and regular. If only I could program the inputs ahead of time! But alas, the software was propriatery and no API was available. It is tasks like these where this software really shines. With some upfront setup the entire process could be automated. Even allowing measurements to be taken over night which improved throughput!
+> The motivation: The mother of all invention- necessity. Electrical measurements were being performed on lighting fixtures to characterize the product before approbation listing with UL and/or Intertek. The sample size for this testing was sometimes upward of 70 discrete measurements. The changes that needed to be made to the software were repetitive and regular. If only I could program the inputs ahead of time! But alas, the software was propriatery and no API was available. It is tasks like these where this software really shines. With some upfront setup the entire process could be automated. Even allowing measurements to be taken over night which improved throughput!
 
 ## Screenshots
 file:///.file/id=6571367.125785890
@@ -77,27 +77,13 @@ MsgBox "Hello World"
 *End Sub
 
 ## Features
-List of features ready and TODOs for future development
 * Interactivity through excel
 * Mouse Pixel Position Display
 * Clicking and Typing Automation
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+
 
 ## Status
-Project is: In progress
-*Update by Craig Sandlin: The first sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the MousePosition.py file. It's function is to display live pixel coordinate data for the mouse. This information is used during the procedure creation to specify where clicking should occur. Next step is to create a save/load procedure functionality. That way the user doesn't need to start from scratch each time, and can have multiple tasks automated!
+Project is: Closed, no further development is planned.
 
-*Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
 
-*Update by Anthony Connor: My contribution to the first sprint is the ownership of the SE_automation.cls . through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform.  
-
-*Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
