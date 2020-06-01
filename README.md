@@ -1,5 +1,5 @@
 # GUI Automation
-> Creators: Craig Sandlin
+> Creator: Craig Sandlin
 
 > Project Description: Automation tool designed to relieve the user from repetitive tasks. Works across all applications; from websites to spreadsheets, file explorer, and everything inbetween. A friendly excel UI allows those without programming knowledge to automate any task that includes clicking, typing, select all, backspace, enter, wait, and more! 
 
