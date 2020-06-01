@@ -14,7 +14,8 @@
 
 ## Code Examples
 >Display Mouse Position:
->import xlwings as xw
+```
+import xlwings as xw
 import pyautogui, sys, time
 
 
@@ -33,7 +34,7 @@ except KeyboardInterrupt:
     print('\n')
 
 wb.save('C:\\Users\\craig\\Documents\\CS3398-Vulcans-S2020\\example.xlsm')
-#wb.save(sys.argv[1])
+```
 
 ## Features
 * Interactivity through excel
