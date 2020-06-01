@@ -4,7 +4,7 @@ import os
 import cv2
 time.sleep(1)
 #Program used to automate using the calculator
-#take screenshot of the buttons we want it to find on the screen
+#take screenshot of the buttons we want to find on the screen
 # > tell it to find where buttons reside >
 # > click area that corresponds to the button
 
